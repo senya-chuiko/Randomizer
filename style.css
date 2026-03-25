@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    display: inline-block;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+label {
+    display: block;
+}
+
+input {
+    border-radius: 1em;
+    font-size: 5em;
+    text-align: center;
+}
+
+button {
+    font-size: 3em;
+    border-radius: 0.2em;
+    padding: 0.25em;
+}
+
+#random {
+    font-size: 5em;
+}
